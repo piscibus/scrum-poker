@@ -10,7 +10,6 @@ const CardItem = (props) => {
    <>
     <div className={classes['card-item']} >
       <span className={classes['item-id-top']}>{props.id}</span>
-      <span className={classes['item-id-bootom']}>{props.id}</span>
       <img src ={props.image}  alt={props.id}/>
     </div>
     </>

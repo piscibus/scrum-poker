@@ -3,8 +3,9 @@
     width: 200px ;    
     border-radius: 10% ;
     margin: 20px 5px;
+    padding: 10px;
     cursor: pointer;
-
+    border: 1px solid #000;
 }
 .card-item img
 {
@@ -18,19 +19,19 @@
 {
     position: absolute;
     font-size: 25px;
-    top:2% ;
-    right: 2%;
+    top:1% ;
+    right: 0%;
     width: 20px;
     height: 20px;
    line-height:-5;
 }
-.item-id-bootom
+/* .item-id-bootom
 {
     position: absolute;
     font-size: 25px;
-    bottom:10% ;
+    top:1% ;
     left: 2%;
     width: 20px;
     height: 20px;
    line-height:-5;
-}
+} */

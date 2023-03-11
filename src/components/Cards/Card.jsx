@@ -11,7 +11,7 @@ const Card = (props) => {
     <>    <div className="row g-2">
       {!itemChecked && data.map(element=>{
         return (
-      <div key={element.id} onClick={()=>setItemChecked(element)} className='col-3 d-flex mx-auto '>
+      <div key={element.id} onClick={()=>setItemChecked(element)} className='col-4 d-flex  '>
       <CardItem  id={element.id} {...props} image={element.image}/>
       </div>)
     })}  
