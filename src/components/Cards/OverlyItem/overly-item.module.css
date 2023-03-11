@@ -1,0 +1,13 @@
+.overly
+{
+    
+    width: 90%;
+    border-radius: 10%;
+    margin: auto;
+    margin-top: 20px;
+}   
+.overly img
+{
+    width: 100%;
+    border-radius: 10%;
+}
