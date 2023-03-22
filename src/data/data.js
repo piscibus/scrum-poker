@@ -9,7 +9,7 @@ const data = [
   },
   {
     id: 3,
-    image: require("../cards/hourse.png"),
+    image: require("../cards/knight.png"),
   },
  
   {
@@ -22,7 +22,7 @@ const data = [
   },
 
   {
-    image: require("../cards/king (2).png"),
+    image: require("../cards/unclear.png"),
   }
 
   
