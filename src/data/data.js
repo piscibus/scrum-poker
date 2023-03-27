@@ -22,7 +22,9 @@ const data = [
   },
 
   {
+    id :null,
     image: require("../cards/unclear.png"),
+    
   }
 
   
