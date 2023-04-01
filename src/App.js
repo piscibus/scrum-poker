@@ -9,7 +9,7 @@ import "./App.css";
 import Home from "./components/Home/Home";
 import Card from "./components/Cards/Card";
 function App() {
-  const  router = createHashRouter([
+  const router = createHashRouter([
     { index: true, element: <Home /> },
     { path: "/home", element: <Card /> },
     { path: "/carditem/:id", element: <FullPageElement /> },
