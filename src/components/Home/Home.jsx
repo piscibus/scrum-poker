@@ -5,7 +5,7 @@ const Home = () => {
     <div>
       <h2
         style={{ textShadow: "3px 3px 3px #000000" }}
-        className="text-center  mb-50 bg-dark text-white my-2 p-2"
+        
       >
         Choose a Card
       </h2>
@@ -15,5 +15,5 @@ const Home = () => {
     </div>
   );
 };
-
+  
 export default Home;
