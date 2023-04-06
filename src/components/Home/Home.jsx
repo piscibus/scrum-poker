@@ -1,19 +1,15 @@
 import React from "react";
 import Card from "../Cards/Card";
+import classes from "./Home.module.css";
 const Home = () => {
   return (
     <div>
-      <h2
-        style={{ textShadow: "3px 3px 3px #000000" }}
-        
-      >
-        Choose a Card
-      </h2>
-      <div className="container ">
+      <h2 className={classes["title-primary"]}>Choose a Card</h2>
+      <div className={classes["container"]}>
         <Card />
       </div>
     </div>
   );
 };
-  
+
 export default Home;

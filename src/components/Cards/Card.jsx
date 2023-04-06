@@ -3,21 +3,20 @@ import CardItem from "./CardItem/CardItem";
 import data from "../../data/data";
 import { Link } from "react-router-dom";
 import OverlyItem from "./OverlyItem/OverlyItem";
-
+import classes from "./card.module.css";
 const Card = (props) => {
   const [itemChecked, setItemChecked] = useState(null);
 
   return (
     <>
-      {" "}
-      <div className="row g-2">
+      <div className={classes["row"]}>
         {!itemChecked &&
           data.map((element) => {
             return (
               <div
                 key={element.id}
                 onClick={() => setItemChecked(element)}
-                className="col-4 d-flex  "
+                style={{ width: "33.33333333%", display: "flex" }}
               >
                 <CardItem id={element.id} {...props} image={element.image} />
               </div>
