@@ -9,7 +9,7 @@ const Card = (props) => {
 
   return (
     <>
-      <div className={classes.row}>
+      <div className={classes["row"]}>
         {!itemChecked &&
           data.map((element) => {
             return (
