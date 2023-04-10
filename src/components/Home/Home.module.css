@@ -1,19 +1,13 @@
 .title-primary {
-    text-align: center;
-    padding: 0.5rem;
-    color: #000;
-    margin-top: 0.5rem !important;
-    margin-bottom: 0.5rem !important;
-    text-shadow: 3px 3px 3px #000000;
-    background-color: #d0d0d0;
-  }
-  .container {
-    --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
-    width: 90%;
-    padding-right: calc(var(--bs-gutter-x) * 0.5);
-    padding-left: calc(var(--bs-gutter-x) * 0.5);
-    margin-right: auto;
-    margin-left: auto;
-  }
-  
+  text-align: center;
+  padding: 0.5rem;
+  color: #000;
+  margin-top: 0.5rem !important;
+  margin-bottom: 0.5rem !important;
+  text-shadow: 3px 3px 3px #000000;
+  background-color: #d0d0d0;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}

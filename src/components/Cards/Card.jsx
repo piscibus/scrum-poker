@@ -9,14 +9,14 @@ const Card = (props) => {
 
   return (
     <>
-      <div className={classes["row"]}>
+      <div className={classes.row}>
         {!itemChecked &&
           data.map((element) => {
             return (
               <div
                 key={element.id}
                 onClick={() => setItemChecked(element)}
-                style={{ width: "33.33333333%", display: "flex" }}
+                className={classes["card-item"]}
               >
                 <CardItem id={element.id} {...props} image={element.image} />
               </div>
