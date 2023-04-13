@@ -1,11 +1,11 @@
 .title-primary {
   text-align: center;
   padding: 0.5rem;
-  color: #000;
+  color: #fff;
   margin-top: 0.5rem !important;
   margin-bottom: 0.5rem !important;
   text-shadow: 3px 3px 3px #000000;
-  background-color: #d0d0d0;
+  background-color: #212529;
 }
 .container {
   width: 90%;
