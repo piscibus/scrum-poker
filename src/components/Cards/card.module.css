@@ -3,6 +3,7 @@
   flex-wrap: wrap;
 }
 .card-item {
-  width: 33.33333333%;
+  width: 28%;
+  margin: 0rem 0rem 2rem 1rem;
   display: flex;
 }
