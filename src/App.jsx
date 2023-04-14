@@ -4,7 +4,7 @@ import Deck from './components/deck/deck';
 
 function App() {
   return (
-      <div>
+      <div className="container">
         <Header/>
         <Deck/>
       </div>

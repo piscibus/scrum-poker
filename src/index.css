@@ -33,10 +33,37 @@
     --line-height-4: 1.8;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: var(--primary-font);
     font-size: var(--font-size-1);
     font-weight: var(--font-weight-normal);
     line-height: var(--line-height-1);
     color: var(--primary-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--secondary-font);
+    font-weight: var(--font-weight-bold);
+    padding: 0;
+    margin: 0;
+}
+
+#root {
+    height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
 }
