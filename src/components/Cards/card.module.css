@@ -1,8 +1,0 @@
-.row {
-  display: flex;
-  flex-wrap: wrap;
-}
-.card-item {
-  width: 33.33333333%;
-  display: flex;
-}
