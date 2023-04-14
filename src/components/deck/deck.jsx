@@ -2,7 +2,11 @@ import React from 'react';
 
 function Deck() {
   return (
-      <div></div>
+      <main className="deck">
+        <p>
+          lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+        </p>
+      </main>
   );
 }
 
