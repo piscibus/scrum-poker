@@ -1,0 +1,42 @@
+/* Normalize CSS */
+@import url(https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css);
+
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;900&display=swap');
+
+/* Theme variables */
+:root {
+    /* Colors */
+    --primary-color: #2E3440;
+    --secondary-color: #4C566A;
+
+    /* Font */
+    --primary-font: 'Rubik', sans-serif;
+    --secondary-font: 'Rubik', sans-serif;
+
+    /* Font size */
+    --font-size-1: 1rem;
+    --font-size-2: 1.2rem;
+    --font-size-3: 1.4rem;
+    --font-size-4: 1.6rem;
+
+    /* Font weight */
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
+    --font-weight-dark: 900;
+
+    /* Line height */
+    --line-height-1: 1.5;
+    --line-height-2: 1.6;
+    --line-height-3: 1.7;
+    --line-height-4: 1.8;
+}
+
+body {
+    font-family: var(--primary-font);
+    font-size: var(--font-size-1);
+    font-weight: var(--font-weight-normal);
+    line-height: var(--line-height-1);
+    color: var(--primary-color);
+}
