@@ -100,7 +100,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #root {
-    height: 100vh;
+
 }
 
 .container {
@@ -115,8 +115,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header {
-    margin-top: var(--spacing-extra-large);
-    margin-bottom: var(--spacing-extra-large);
+    margin-top: var(--spacing-large);
+    margin-bottom: var(--spacing-large);
 }
 
 .header h1 {
@@ -163,8 +163,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .play-card__number {
     position: absolute;
-    top: var(--spacing-small);
-    left: var(--spacing-small);
+    top: var(--spacing-extra-small);
+    left: var(--spacing-extra-small);
     border-radius: 50%;
     width: 3rem;
     height: 3rem;
@@ -183,6 +183,12 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     align-items: center;
     justify-content: center;
+    min-height: 10rem;
+}
+
+.play-card__suit img {
+    width: 4rem;
+    height: 4rem;
 }
 
 .play-card:nth-child(1) {
